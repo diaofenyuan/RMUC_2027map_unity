@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "calibration_id": "sim_rmuc2027_u1_v1",
+  "origin": "official_cad_tessellation",
+  "units": "m",
+  "vertices": 7048495,
+  "triangles": 7071310,
+  "instance_count": 81,
+  "definition_count": 40,
+  "material_count": 42,
+  "bounds_m": [
+    [
+      -1.0232259484155293e-09,
+      -0.5015655755996704,
+      -0.3009999990463257
+    ],
+    [
+      27.99999237060547,
+      15.501565933227539,
+      3.4976871013641357
+    ]
+  ],
+  "chord_mm": 2.0,
+  "cad_mm_to_field_m": [
+    0.001,
+    0.0,
+    0.0,
+    13.99998853897,
+    0.0,
+    0.001,
+    0.0,
+    5.8756563235,
+    0.0,
+    0.0,
+    0.001,
+    1.6403436765,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "map_ready": false,
+  "degenerate_unmeshed_faces": [
+    {
+      "part": "0_1_1_32",
+      "face_index": 5431,
+      "area_mm2": 2.710505431213761e-20
+    }
+  ]
+}

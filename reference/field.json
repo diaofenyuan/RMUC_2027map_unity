@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "resource_id": "rmuc2027_v1_official_occt_2mm",
+  "calibration_id": "sim_rmuc2027_u1_v1",
+  "origin": "unity",
+  "map_ready": false,
+  "cad_mm_to_field_m": [
+    0.001,
+    0.0,
+    0.0,
+    13.99998853897,
+    0.0,
+    0.001,
+    0.0,
+    5.8756563235,
+    0.0,
+    0.0,
+    0.001,
+    1.6403436765,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "field_to_unity": [
+    0,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "coordinate_note": "内部仿真系：X沿CAD+X，Y沿CAD+Y；名义比赛区域XY为0..28、0..15。Z=0取CAD中轴地面折线高程，边侧地面为负值；不是规则G基准或已标定裁判坐标。整体底板额外保留两侧约0.5m。",
+  "nominal_play_area_m": [
+    28,
+    15
+  ],
+  "ground_crest_y_m": 7.5,
+  "ground_slope_deg": 1.5,
+  "anchors": [
+    {
+      "name": "floor_SW",
+      "cad_mm": [
+        -13999.98853897,
+        -6377.22189513,
+        -1850.872044984
+      ],
+      "field_m": [
+        0.0,
+        -0.5015655716299996,
+        -0.21052836848400025
+      ],
+      "description": "CAD 底板上表面角点"
+    },
+    {
+      "name": "floor_SE",
+      "cad_mm": [
+        14000.00295218,
+        -6377.22189513,
+        -1850.872044984
+      ],
+      "field_m": [
+        27.99999149115,
+        -0.5015655716299996,
+        -0.21052836848400025
+      ],
+      "description": "CAD 底板上表面角点"
+    },
+    {
+      "name": "floor_NW",
+      "cad_mm": [
+        -13999.98853897,
+        9625.90924813,
+        -1850.872044985
+      ],
+      "field_m": [
+        0.0,
+        15.50156557163,
+        -0.21052836848500012
+      ],
+      "description": "CAD 底板上表面角点"
+    },
+    {
+      "name": "floor_NE",
+      "cad_mm": [
+        14000.00295218,
+        9625.90924813,
+        -1850.872044985
+      ],
+      "field_m": [
+        27.99999149115,
+        15.50156557163,
+        -0.21052836848500012
+      ],
+      "description": "CAD 底板上表面角点"
+    },
+    {
+      "name": "crest_W",
+      "cad_mm": [
+        -13999.98657085,
+        1624.343676505,
+        -1640.343676495
+      ],
+      "field_m": [
+        1.9681199994181497e-06,
+        7.5000000000050004,
+        5.000000413701855e-12
+      ],
+      "description": "CAD 地面中轴折线端点"
+    },
+    {
+      "name": "crest_E",
+      "cad_mm": [
+        14000.00098406,
+        1624.343676495,
+        -1640.343676495
+      ],
+      "field_m": [
+        27.99998952303,
+        7.499999999995,
+        5.000000413701855e-12
+      ],
+      "description": "CAD 地面中轴折线端点"
+    }
+  ],
+  "camera": {
+    "frame_id": "camera_optical_frame",
+    "width": 1536,
+    "height": 1024,
+    "fx": 1100.0,
+    "fy": 1100.0,
+    "cx": 768.0,
+    "cy": 512.0,
+    "distortion": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "encoding": "rgb8",
+    "field_position_m": [
+      1.4,
+      -0.6,
+      2.8
+    ],
+    "field_look_at_m": [
+      14,
+      7.5,
+      0.2
+    ],
+    "calibration_origin": "simulation_known_pose"
+  },
+  "lidar": {
+    "frame_id": "lidar_frame",
+    "model": "Livox MID-70",
+    "count": 1,
+    "directional": true,
+    "circular_fov_deg": 70.4,
+    "field_position_m": [
+      1.5,
+      -0.6,
+      2.75
+    ],
+    "field_look_at_m": [
+      14,
+      7.5,
+      0.2
+    ],
+    "return_count": 1,
+    "calibration_origin": "simulation_known_pose"
+  },
+  "layers": {
+    "display": 8,
+    "raycast": 8,
+    "collision": 8,
+    "debug": 9
+  },
+  "tolerances": {
+    "anchor_m": 0.001,
+    "ray_m": 0.003,
+    "projection_px": 0.05
+  }
+}

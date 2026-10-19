@@ -1,0 +1,32 @@
+# ---------- Unity 生成目录，不纳入版本控制 ----------
+/Project/[Ll]ibrary/
+/Project/[Tt]emp/
+/Project/[Oo]bj/
+/Project/[Bb]uild/
+/Project/[Bb]uilds/
+/Project/[Ll]ogs/
+/Project/[Uu]ser[Ss]ettings/
+/Project/[Mm]emoryCaptures/
+/Project/[Rr]ecordings/
+
+# ---------- IDE 与自动生成的工程文件 ----------
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ---------- 构建产物与系统文件 ----------
+*.apk
+*.aab
+*.unitypackage
+*.app
+sysinfo.txt
+crashlytics-build.properties
+Thumbs.db
+desktop.ini
+.DS_Store
