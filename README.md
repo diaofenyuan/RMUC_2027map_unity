@@ -26,7 +26,7 @@ Unity 工程包含可直接打开的完整项目、场地预制体、显示网�
 | `Project/ProjectSettings/` | — | 工程设置，构建场景列表已指向 `U1Field` |
 | `reference/field.json` | 3,615 B | 场地与仿真传感器的唯一配置 |
 | `一键打开场地.bat` | 3,142 B | Windows 一键启动脚本，自动定位 Unity Editor |
-| `map/` | 13.9 MB | 二维雷达地图包（2800 × 1500，无白边），详见 [map/README.md](map/README.md) |
+| `map/` | 13.2 MB | 二维雷达地图包（2800 × 1500，无白边），详见 [map/README.md](map/README.md) |
 
 工程使用内置渲染管线（非 URP / HDRP），场地场景不引用任何自定义脚本，移除
 `Assets/Rmvf/Editor` 不影响场景显示，仅失去自动载入能力。

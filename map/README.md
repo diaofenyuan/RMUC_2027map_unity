@@ -19,11 +19,8 @@
 | `rm2027-map-blue.png` | 2800 × 1500 | 3,481,380 B | 蓝方半场轻度着色，像素几何与主底图一致 |
 | `rm2027-map-mask.png` | 2800 × 1500 | 26,257 B | 三色高度掩膜，与主底图逐像素对齐 |
 | `rm2027-map-mask-overlay.png` | 2800 × 1500 | 3,208,651 B | 掩膜半透明叠加预览，仅供人工检查 |
-| `reference/rm2027-top-view.png` | 981 × 559 | 518,899 B | 官方手册图 4-1 原图（含白边），仅作溯源对照 |
-| `reference/rm2027-layout-dimensions.png` | 979 × 624 | 176,232 B | 场地尺寸标注参考图，未与底图逐像素配准 |
 
-五张 2800 × 1500 图像共享同一像素坐标系，可直接叠加或按同一矩阵配准。两张 `reference/`
-图像仅用于核对与溯源，不建议直接参与匹配。
+五张图像共享同一像素坐标系，可直接叠加或按同一矩阵配准。
 
 ---
 
@@ -168,8 +165,6 @@ git clone --depth 1 https://github.com/diaofenyuan/RMUC_2027map_unity.git
 | `rm2027-map-blue.png` | `bcdc7f6c055bc45619138ca8b6a2bc309b5f8e0e9def288f0824d7746ba655c2` |
 | `rm2027-map-mask.png` | `19d99c200ccba65ee8c8e2739822fedbe9fde1c6d16e93b92bb58ecee44deb3d` |
 | `rm2027-map-mask-overlay.png` | `bf8d20bcb392e672a1d8d69acf4f611c1b7b90115253177cba2c6f84d1a92b5e` |
-| `reference/rm2027-top-view.png` | `34220f8f77727f36bb43afc5bdd7331dc6c447e4415126b9eeeff236c59fa14d` |
-| `reference/rm2027-layout-dimensions.png` | `ec747a73a9c9dbb0b9cd50d4dfee3269e7459b6d5350829fdbcbe3b487163fa9` |
 
 ---
 
